@@ -5,5 +5,5 @@ function updatePlaylist(obj, newKey, newVal) {
 }
 
 funtion removeFromPlaylist(obj, key) {
-  return obj.delete(key)
+  return delete obj.key
 }
