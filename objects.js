@@ -1,9 +1,10 @@
 var playlist = {'Radical Face': 'Ghost Towns', 'Sufjan Stevens': 'Death with Dignity'};
 
-function updatePlaylist(obj, newKey, newVal) {
-  return Object.assign(obj, {newKey: newVal})
+function updatePlaylist(playlist, newKey, newVal) {
+  playlist[newKey] = newVal;
+  return playlist
 }
 
-function removeFromPlaylist(obj, key) {
+function removeFromPlaylist(playlist, key) {
   return delete obj.key
 }
