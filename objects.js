@@ -1,10 +1,10 @@
 var playlist = {'Radical Face': 'Ghost Towns', 'Sufjan Stevens': 'Death with Dignity'};
 
-function updatePlaylist(playlist, newKey, newVal) {
-  playlist[newKey] = newVal;
+function updatePlaylist(playlist, artistName, songTitle) {
+  playlist[artistName] = songTitle;
   return playlist
 }
 
-function removeFromPlaylist(playlist, key) {
-  return delete obj.key
+function removeFromPlaylist(playlist, artistName) {
+  return delete obj.artistName
 }
